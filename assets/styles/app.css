@@ -1,3 +1,8 @@
-body {
-    background-color: skyblue;
+@import "tailwindcss";
+
+@source "../../templates/**/*.twig";
+
+/* Remove outline from focussed elements */
+:focus-visible {
+  outline: none;
 }
